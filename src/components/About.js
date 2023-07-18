@@ -5,33 +5,6 @@ import PropTypes from 'prop-types'
 
 
 export default function About(props) {
-    // const [mystyle , setmystyle] = useState({
-    //     color: 'Black',
-    //     backgroundColor:'White'
-        
-    // })
-    // const [text , settext] = useState('')
-
-
-    // const dark= () =>{
-    //     if(mystyle.color == 'Black'){
-    //         setmystyle({
-    //             color: 'White',
-    //             backgroundColor:'Black'
-    //         })
-    //         // settext(target.value)
-    //         settext("Enable light Mode");
-    //     }
-    //     else{
-    //         setmystyle({
-    //             color: 'Black',
-    //             backgroundColor:'White'
-    //         })
-               
-    //         settext('Enable dark Mode');
-    //     }
-    // }
-    
      
     return (
         <div className="container ann" >
@@ -74,7 +47,7 @@ export default function About(props) {
                     </div>
                 </div>
             </div>
-            {/* <button onClick={dark} type='button' className='btn btn-primary my-2'>Enable dark mode</button> */}
+             
         </div>
     )
 }

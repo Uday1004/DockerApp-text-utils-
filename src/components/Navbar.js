@@ -30,11 +30,7 @@ export default function Navbar(props) {
               
 
             </ul>
-            {/* i comment the search box for the lecture purpose 👍 */}
-            {/* <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form> */}
+             
             <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'}`}>
               <input className="form-check-input" onClick={props.togglemode} type="checkbox" id="flexSwitchCheckDefault" />
               <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Dark Mode!</label>
