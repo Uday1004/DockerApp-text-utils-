@@ -27,6 +27,9 @@ export default function Navbar(props) {
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">{props.contact}</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/screen">Homescreen</Link>
+              </li>
               
 
             </ul>
