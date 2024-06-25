@@ -1,0 +1,6 @@
+docker build -t appname . (. is direcoty of all files)
+docker run -p port1:port2 appname(image_name)
+docker run -it image_name
+docker login
+docker tag appname username/imagename:latest
+docker push username/imagename:latest
