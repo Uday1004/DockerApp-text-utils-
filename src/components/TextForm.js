@@ -47,7 +47,7 @@ export default function TextForm(props) {
       <div className='container' style={{color:props.mode==='dark'?'white':'black'}}>
         <h1>{props.title}</h1>
         <div className="mb-3">
-          <textarea className='form-control' value={text} id="textbox" style={{background:props.mode==='dark'?'gray':'white' , color:props.mode==='dark'?'white':'black'}} rows="8" onChange={onChange}></textarea>
+          <textarea className='form-control' spellcheck="true" value={text} id="textbox" style={{background:props.mode==='dark'?'gray':'white' , color:props.mode==='dark'?'white':'black'}} rows="8" onChange={onChange}></textarea>
           {/* here value is equal to text(enter the text here) */}
         </div>
         <button className="btn btn-primary mx-3 " onClick={upClick}>Text to Uppercase</button>
